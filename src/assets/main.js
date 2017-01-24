@@ -13,3 +13,8 @@ function setHiddenFields(){
   }
   attempt.value = "0";
 }
+
+function setMessage(value){
+  let message = document.getElementById('message');
+  message.innerHTML = message;
+}
