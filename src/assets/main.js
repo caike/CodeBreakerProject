@@ -16,5 +16,5 @@ function setHiddenFields(){
 
 function setMessage(value){
   let message = document.getElementById('message');
-  message.innerHTML = message;
+  message.innerHTML = value;
 }
